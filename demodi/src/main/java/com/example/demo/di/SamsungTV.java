@@ -1,8 +1,10 @@
 package com.example.demo.di;
 
+import org.springframework.stereotype.Component;
+
 import lombok.Data;
 
-// @Component
+//@Component
 @Data
 public class SamsungTV implements TV {
 

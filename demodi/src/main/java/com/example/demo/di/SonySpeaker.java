@@ -2,7 +2,7 @@ package com.example.demo.di;
 
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class SonySpeaker implements Speaker {
 
 	public SonySpeaker(){		System.out.println("Sony Speaker 생성");	}

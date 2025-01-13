@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import lombok.Data;
 
 @Data
-//@Component
+@Component
 public class LgTV implements TV {
 
 	final Speaker speaker;	
